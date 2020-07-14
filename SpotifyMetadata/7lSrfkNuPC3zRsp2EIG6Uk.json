@@ -1,0 +1,87 @@
+﻿{
+  "album" : {
+    "album_type" : "album",
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/77AiFEVeAVj2ORpC85QVJs"
+      },
+      "href" : "https://api.spotify.com/v1/artists/77AiFEVeAVj2ORpC85QVJs",
+      "id" : "77AiFEVeAVj2ORpC85QVJs",
+      "name" : "Steve Aoki",
+      "type" : "artist",
+      "uri" : "spotify:artist:77AiFEVeAVj2ORpC85QVJs"
+    } ],
+    "available_markets" : [ "AD", "AE", "AR", "AT", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/album/43DlYlzuSWTVNUwytMqUqK"
+    },
+    "href" : "https://api.spotify.com/v1/albums/43DlYlzuSWTVNUwytMqUqK",
+    "id" : "43DlYlzuSWTVNUwytMqUqK",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab67616d0000b27316603d1a8d08b0c058bb4aef",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67616d00001e0216603d1a8d08b0c058bb4aef",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab67616d0000485116603d1a8d08b0c058bb4aef",
+      "width" : 64
+    } ],
+    "name" : "Neon Future IV (Remixes)",
+    "release_date" : "2020-05-22",
+    "release_date_precision" : "day",
+    "total_tracks" : 26,
+    "type" : "album",
+    "uri" : "spotify:album:43DlYlzuSWTVNUwytMqUqK"
+  },
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/77AiFEVeAVj2ORpC85QVJs"
+    },
+    "href" : "https://api.spotify.com/v1/artists/77AiFEVeAVj2ORpC85QVJs",
+    "id" : "77AiFEVeAVj2ORpC85QVJs",
+    "name" : "Steve Aoki",
+    "type" : "artist",
+    "uri" : "spotify:artist:77AiFEVeAVj2ORpC85QVJs"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/2GEW6nJjHKAFyqnsE3TdWx"
+    },
+    "href" : "https://api.spotify.com/v1/artists/2GEW6nJjHKAFyqnsE3TdWx",
+    "id" : "2GEW6nJjHKAFyqnsE3TdWx",
+    "name" : "Zooey Deschanel",
+    "type" : "artist",
+    "uri" : "spotify:artist:2GEW6nJjHKAFyqnsE3TdWx"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/3NKKngINK1tP6BFy0WOyWk"
+    },
+    "href" : "https://api.spotify.com/v1/artists/3NKKngINK1tP6BFy0WOyWk",
+    "id" : "3NKKngINK1tP6BFy0WOyWk",
+    "name" : "Max Styler",
+    "type" : "artist",
+    "uri" : "spotify:artist:3NKKngINK1tP6BFy0WOyWk"
+  } ],
+  "available_markets" : [ "AD", "AE", "AR", "AT", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+  "disc_number" : 1,
+  "duration_ms" : 192656,
+  "explicit" : false,
+  "external_ids" : {
+    "isrc" : "USUS12000280"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/track/7lSrfkNuPC3zRsp2EIG6Uk"
+  },
+  "href" : "https://api.spotify.com/v1/tracks/7lSrfkNuPC3zRsp2EIG6Uk",
+  "id" : "7lSrfkNuPC3zRsp2EIG6Uk",
+  "is_local" : false,
+  "name" : "1 4 U - Max Styler Remix",
+  "popularity" : 32,
+  "preview_url" : "https://p.scdn.co/mp3-preview/241f3c5b1e2849f310f80333db4d4caeb617f9ad?cid=55fa4e0de6184a4abd1a8cf0de5f5b1d",
+  "track_number" : 10,
+  "type" : "track",
+  "uri" : "spotify:track:7lSrfkNuPC3zRsp2EIG6Uk"
+}

@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "d-dindin-bold";
+  src: url("https://assets.codepen.io/254821/d-din-bold-webfont.woff2")
+      format("woff2"),
+    url("ttps://assets.codepen.io/254821/d-din-bold-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --colorBase: #0f1923; /* 0F1923 */
+  --colorRed: #ff4655; /* FF4655 */
+  --colorOffwhite: #f2e6dd; /* F2E6DD */
+
+  --firstTextColor: #ff4655;
+  --secondTextColor: #ffffff;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "d-dindin-bold", sans-serif;
+  background: #555;
+  text-transform: uppercase;
+}
+
+body {
+  overflow: hidden;
+  text-align: center;
+}
+
+.color-base {
+  stroke: var(--colorBase) !important;
+  fill: var(--colorBase) !important;
+}
+.color-red {
+  stroke: var(--colorRed) !important;
+  fill: var(--colorRed) !important;
+}
+
+.color-offwhite {
+  stroke: var(--colorOffwhite) !important;
+  fill: var(--colorOffwhite) !important;
+}
+.holder {
+  position: relative;
+}
+#alertHolder {
+  top: 0px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+
+#mainTextHolder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  width: 800px;
+  font-size: 80px;
+  height: 120px;
+}
+
+#firstHolder,
+#secondHolder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#firstText,
+#secondText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+  position: absolute;
+  letter-spacing: 14px;
+  transform-origin: center center;
+  display: inline-block;
+}
+
+#firstText {
+  color: var(--firstTextColor);
+}
+
+#secondText {
+  color: var(--secondTextColor);
+}
+
+#animationWindow {
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+#alert-user-message {
+  opacity: 0;
+  width: 640px;
+  font-size: 18px;
+  line-height: 120%;
+  position: absolute;
+  top: 660px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-shadow: 0px 0px 3px #000, 0px 0px 4px #000, 0px 0px 5px #000;
+  color: #fff;
+}
+
+#alert-user-message img {
+  vertical-align: middle;
+  height: 1em;
+}

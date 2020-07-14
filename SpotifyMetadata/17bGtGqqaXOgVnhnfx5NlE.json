@@ -1,0 +1,105 @@
+﻿{
+  "album" : {
+    "album_type" : "single",
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4CA8PTrbq1l5IgyvBA2JSV"
+      },
+      "href" : "https://api.spotify.com/v1/artists/4CA8PTrbq1l5IgyvBA2JSV",
+      "id" : "4CA8PTrbq1l5IgyvBA2JSV",
+      "name" : "Paul Woolford",
+      "type" : "artist",
+      "uri" : "spotify:artist:4CA8PTrbq1l5IgyvBA2JSV"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/5fMUXHkw8R8eOP2RNVYEZX"
+      },
+      "href" : "https://api.spotify.com/v1/artists/5fMUXHkw8R8eOP2RNVYEZX",
+      "id" : "5fMUXHkw8R8eOP2RNVYEZX",
+      "name" : "Diplo",
+      "type" : "artist",
+      "uri" : "spotify:artist:5fMUXHkw8R8eOP2RNVYEZX"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/0Fb9qTWnjsB90xH3zWr4oa"
+      },
+      "href" : "https://api.spotify.com/v1/artists/0Fb9qTWnjsB90xH3zWr4oa",
+      "id" : "0Fb9qTWnjsB90xH3zWr4oa",
+      "name" : "Kareen Lomax",
+      "type" : "artist",
+      "uri" : "spotify:artist:0Fb9qTWnjsB90xH3zWr4oa"
+    } ],
+    "available_markets" : [ "AD", "AE", "AT", "AU", "BE", "BG", "BH", "CH", "CY", "CZ", "DE", "DK", "DZ", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "HK", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MY", "NL", "NO", "NZ", "OM", "PH", "PL", "PS", "PT", "QA", "RO", "SA", "SE", "SG", "SK", "TH", "TN", "TR", "TW", "VN", "ZA" ],
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/album/55QDKKenyNcudrsy1Svd3o"
+    },
+    "href" : "https://api.spotify.com/v1/albums/55QDKKenyNcudrsy1Svd3o",
+    "id" : "55QDKKenyNcudrsy1Svd3o",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab67616d0000b273ab080bd1dc604f9b4d9c1d71",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67616d00001e02ab080bd1dc604f9b4d9c1d71",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab67616d00004851ab080bd1dc604f9b4d9c1d71",
+      "width" : 64
+    } ],
+    "name" : "Looking for Me",
+    "release_date" : "2020-06-24",
+    "release_date_precision" : "day",
+    "total_tracks" : 1,
+    "type" : "album",
+    "uri" : "spotify:album:55QDKKenyNcudrsy1Svd3o"
+  },
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/4CA8PTrbq1l5IgyvBA2JSV"
+    },
+    "href" : "https://api.spotify.com/v1/artists/4CA8PTrbq1l5IgyvBA2JSV",
+    "id" : "4CA8PTrbq1l5IgyvBA2JSV",
+    "name" : "Paul Woolford",
+    "type" : "artist",
+    "uri" : "spotify:artist:4CA8PTrbq1l5IgyvBA2JSV"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/5fMUXHkw8R8eOP2RNVYEZX"
+    },
+    "href" : "https://api.spotify.com/v1/artists/5fMUXHkw8R8eOP2RNVYEZX",
+    "id" : "5fMUXHkw8R8eOP2RNVYEZX",
+    "name" : "Diplo",
+    "type" : "artist",
+    "uri" : "spotify:artist:5fMUXHkw8R8eOP2RNVYEZX"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/0Fb9qTWnjsB90xH3zWr4oa"
+    },
+    "href" : "https://api.spotify.com/v1/artists/0Fb9qTWnjsB90xH3zWr4oa",
+    "id" : "0Fb9qTWnjsB90xH3zWr4oa",
+    "name" : "Kareen Lomax",
+    "type" : "artist",
+    "uri" : "spotify:artist:0Fb9qTWnjsB90xH3zWr4oa"
+  } ],
+  "available_markets" : [ "AD", "AE", "AT", "AU", "BE", "BG", "BH", "CH", "CY", "CZ", "DE", "DK", "DZ", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "HK", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MY", "NL", "NO", "NZ", "OM", "PH", "PL", "PS", "PT", "QA", "RO", "SA", "SE", "SG", "SK", "TH", "TN", "TR", "TW", "VN", "ZA" ],
+  "disc_number" : 1,
+  "duration_ms" : 211452,
+  "explicit" : false,
+  "external_ids" : {
+    "isrc" : "USZ4V2000222"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/track/17bGtGqqaXOgVnhnfx5NlE"
+  },
+  "href" : "https://api.spotify.com/v1/tracks/17bGtGqqaXOgVnhnfx5NlE",
+  "id" : "17bGtGqqaXOgVnhnfx5NlE",
+  "is_local" : false,
+  "name" : "Looking for Me",
+  "popularity" : 68,
+  "preview_url" : "https://p.scdn.co/mp3-preview/31e3d44e7123d0b0506710bf163a82b9b22927ad?cid=55fa4e0de6184a4abd1a8cf0de5f5b1d",
+  "track_number" : 1,
+  "type" : "track",
+  "uri" : "spotify:track:17bGtGqqaXOgVnhnfx5NlE"
+}

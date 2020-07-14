@@ -1,0 +1,87 @@
+﻿{
+  "album" : {
+    "album_type" : "single",
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms"
+      },
+      "href" : "https://api.spotify.com/v1/artists/1HY2Jd0NmPuamShAr6KMms",
+      "id" : "1HY2Jd0NmPuamShAr6KMms",
+      "name" : "Lady Gaga",
+      "type" : "artist",
+      "uri" : "spotify:artist:1HY2Jd0NmPuamShAr6KMms"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+      },
+      "href" : "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+      "id" : "66CXWjxzNUsdJxJ2JdwvnR",
+      "name" : "Ariana Grande",
+      "type" : "artist",
+      "uri" : "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+    } ],
+    "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/album/4TqgXMSSTwP3RCo3MMSR6t"
+    },
+    "href" : "https://api.spotify.com/v1/albums/4TqgXMSSTwP3RCo3MMSR6t",
+    "id" : "4TqgXMSSTwP3RCo3MMSR6t",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab67616d0000b273c8583f0bd97d3042d4971acf",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67616d00001e02c8583f0bd97d3042d4971acf",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab67616d00004851c8583f0bd97d3042d4971acf",
+      "width" : 64
+    } ],
+    "name" : "Rain On Me (with Ariana Grande)",
+    "release_date" : "2020-05-22",
+    "release_date_precision" : "day",
+    "total_tracks" : 1,
+    "type" : "album",
+    "uri" : "spotify:album:4TqgXMSSTwP3RCo3MMSR6t"
+  },
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms"
+    },
+    "href" : "https://api.spotify.com/v1/artists/1HY2Jd0NmPuamShAr6KMms",
+    "id" : "1HY2Jd0NmPuamShAr6KMms",
+    "name" : "Lady Gaga",
+    "type" : "artist",
+    "uri" : "spotify:artist:1HY2Jd0NmPuamShAr6KMms"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+    },
+    "href" : "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+    "id" : "66CXWjxzNUsdJxJ2JdwvnR",
+    "name" : "Ariana Grande",
+    "type" : "artist",
+    "uri" : "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+  } ],
+  "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+  "disc_number" : 1,
+  "duration_ms" : 182200,
+  "explicit" : false,
+  "external_ids" : {
+    "isrc" : "USUM72004304"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/track/24ySl2hOPGCDcxBxFIqWBu"
+  },
+  "href" : "https://api.spotify.com/v1/tracks/24ySl2hOPGCDcxBxFIqWBu",
+  "id" : "24ySl2hOPGCDcxBxFIqWBu",
+  "is_local" : false,
+  "name" : "Rain On Me (with Ariana Grande)",
+  "popularity" : 93,
+  "preview_url" : null,
+  "track_number" : 1,
+  "type" : "track",
+  "uri" : "spotify:track:24ySl2hOPGCDcxBxFIqWBu"
+}

@@ -1,0 +1,96 @@
+﻿{
+  "album" : {
+    "album_type" : "album",
+    "artists" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/77AiFEVeAVj2ORpC85QVJs"
+      },
+      "href" : "https://api.spotify.com/v1/artists/77AiFEVeAVj2ORpC85QVJs",
+      "id" : "77AiFEVeAVj2ORpC85QVJs",
+      "name" : "Steve Aoki",
+      "type" : "artist",
+      "uri" : "spotify:artist:77AiFEVeAVj2ORpC85QVJs"
+    } ],
+    "available_markets" : [ "AD", "AE", "AR", "AT", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/album/43DlYlzuSWTVNUwytMqUqK"
+    },
+    "href" : "https://api.spotify.com/v1/albums/43DlYlzuSWTVNUwytMqUqK",
+    "id" : "43DlYlzuSWTVNUwytMqUqK",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab67616d0000b27316603d1a8d08b0c058bb4aef",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://i.scdn.co/image/ab67616d00001e0216603d1a8d08b0c058bb4aef",
+      "width" : 300
+    }, {
+      "height" : 64,
+      "url" : "https://i.scdn.co/image/ab67616d0000485116603d1a8d08b0c058bb4aef",
+      "width" : 64
+    } ],
+    "name" : "Neon Future IV (Remixes)",
+    "release_date" : "2020-05-22",
+    "release_date_precision" : "day",
+    "total_tracks" : 26,
+    "type" : "album",
+    "uri" : "spotify:album:43DlYlzuSWTVNUwytMqUqK"
+  },
+  "artists" : [ {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/77AiFEVeAVj2ORpC85QVJs"
+    },
+    "href" : "https://api.spotify.com/v1/artists/77AiFEVeAVj2ORpC85QVJs",
+    "id" : "77AiFEVeAVj2ORpC85QVJs",
+    "name" : "Steve Aoki",
+    "type" : "artist",
+    "uri" : "spotify:artist:77AiFEVeAVj2ORpC85QVJs"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/4o7tWrzQOqarDtTMWD2HV9"
+    },
+    "href" : "https://api.spotify.com/v1/artists/4o7tWrzQOqarDtTMWD2HV9",
+    "id" : "4o7tWrzQOqarDtTMWD2HV9",
+    "name" : "LAY",
+    "type" : "artist",
+    "uri" : "spotify:artist:4o7tWrzQOqarDtTMWD2HV9"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/085pc2PYOi8bGKj0PNjekA"
+    },
+    "href" : "https://api.spotify.com/v1/artists/085pc2PYOi8bGKj0PNjekA",
+    "id" : "085pc2PYOi8bGKj0PNjekA",
+    "name" : "will.i.am",
+    "type" : "artist",
+    "uri" : "spotify:artist:085pc2PYOi8bGKj0PNjekA"
+  }, {
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/artist/19EW4WBhl0fvZUQgi7wV5M"
+    },
+    "href" : "https://api.spotify.com/v1/artists/19EW4WBhl0fvZUQgi7wV5M",
+    "id" : "19EW4WBhl0fvZUQgi7wV5M",
+    "name" : "QUIX",
+    "type" : "artist",
+    "uri" : "spotify:artist:19EW4WBhl0fvZUQgi7wV5M"
+  } ],
+  "available_markets" : [ "AD", "AE", "AR", "AT", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+  "disc_number" : 1,
+  "duration_ms" : 189581,
+  "explicit" : false,
+  "external_ids" : {
+    "isrc" : "USUS12000279"
+  },
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/track/6lYO41fg1u7mRLoJYrj8nj"
+  },
+  "href" : "https://api.spotify.com/v1/tracks/6lYO41fg1u7mRLoJYrj8nj",
+  "id" : "6lYO41fg1u7mRLoJYrj8nj",
+  "is_local" : false,
+  "name" : "Love You More - QUIX Remix",
+  "popularity" : 30,
+  "preview_url" : "https://p.scdn.co/mp3-preview/2ff8b2ab28dbd1ec5cd67e10b277ec2152bc1e38?cid=55fa4e0de6184a4abd1a8cf0de5f5b1d",
+  "track_number" : 7,
+  "type" : "track",
+  "uri" : "spotify:track:6lYO41fg1u7mRLoJYrj8nj"
+}
