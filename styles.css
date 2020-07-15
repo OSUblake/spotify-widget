@@ -37,15 +37,18 @@ html {
   height: 100%;
   width: 100%;
 }
+
 #alert-box {
   height: 100%;
   width: 100%;
   position: absolute;
 }
+
 #alert-box.hidden,
 .hidden {
   opacity: 0;
 }
+
 body {
   overflow: hidden;
   text-align: center;
