@@ -25,10 +25,27 @@ html {
   padding: 0;
   overflow: hidden;
   font-family: "d-dindin-bold", sans-serif;
-  background: #555;
   text-transform: uppercase;
 }
 
+.widget-AlertBox {
+  position: relative;
+}
+
+#wrap {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+#alert-box {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+#alert-box.hidden,
+.hidden {
+  opacity: 0;
+}
 body {
   overflow: hidden;
   text-align: center;
@@ -47,12 +64,12 @@ body {
   stroke: var(--colorOffwhite) !important;
   fill: var(--colorOffwhite) !important;
 }
-.holder {
-  position: relative;
-}
+
 #alertHolder {
-  top: 0px;
+  width: 1920px;
+  height: 1080px;
   position: absolute;
+  top: -300px;
   left: 50%;
   transform: translateX(-50%);
   opacity: 0;
