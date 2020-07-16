@@ -4,7 +4,6 @@
     "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js",
     "https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.8/lottie.min.js",
     "https://ext-assets.streamlabs.com/users/140067/SplitText.min.js",
-    "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js",
     { name: "animData", url: "https://ext-assets.streamlabs.com/users/140067/V_Donation.json" }
   ]);
 
