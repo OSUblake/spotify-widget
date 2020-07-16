@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zyphen's Now Playing</title>
+  <link rel="stylesheet" href="SongStyle.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script>
+    function loadScript (url) {
+    return new Promise(function (resolve, reject) {
+        const script = document.createElement('script')
+        script.onload = resolve
+        script.onerror = reject
+        script.src = url
+​
+        document.head.appendChild(script)
+    })
+}
+​
+  loadScript('https://ext-assets.streamlabs.com/users/140067/gsap2-1-2.js').then(function () {
+    loadScript('https://ext-assets.streamlabs.com/users/140067/SplitText-2-1-2.min.js').then(function () {
+        tl = new TimelineMax();
+    });
+  });
+    
+  var newSong;
+    var newArtist;
+    var shown = false;
+    function hideText() {
+      $("#artist").animate({
+        marginLeft: "-100px",
+        opacity: 0
+      }, 300);
+      $("#song").animate({
+        marginLeft: "-100px",
+        opacity: 0
+      }, 300);
+​
+      document.getElementById("song").classList.remove("scrolling");
+      document.getElementById("artist").classList.remove("scrolling");
+​
+    }
+​
+    function updateText() {
+      document.getElementById("artist").innerHTML = newArtist;
+      document.getElementById("song").innerHTML = newSong;
+    }
+​
+    function showText() {
+      if(newArtist.length >29){
+        $("#artist").animate({
+          marginLeft: "290px",
+          opacity: 1
+        }, 300, function() {
+          $("#artist").css("margin-left", "7px");
+          console.log("changed");
+        });
+        }
+      else{
+        $("#artist").animate({
+          marginLeft: "7px",
+          opacity: 1
+        }, 300);}
+      if(newSong.length > 17){
+        $("#song").animate({
+          marginLeft: "290px",
+          opacity: 1
+        }, 300, function() {
+          console.log("lngsong")
+          $("#song").css("margin-left", "7px");
+        });}
+      else {
+        $("#song").animate({
+        marginLeft: "7px",
+        opacity: 1
+      }, 300);}
+​
+      if(newSong.length > 20) setTimeout(function(){document.getElementById("song").classList.add("scrolling");}, 300);
+      if(newArtist.length > 29) setTimeout(function(){document.getElementById("artist").classList.add("scrolling");}, 300);
+​
+    }
+​
+    function checkUpdate() {
+      $.get("Snip_Artist.txt", function(art) {
+        newArtist = art.replace(/&/g, "&amp;");
+      }).then(
+      $.get("Snip_Track.txt", function(sng) {
+        newSong = sng.replace(/&/g, "&amp;");
+      })).then(displayData);
+​
+      setTimeout(checkUpdate, 2000);
+    }
+​
+    function displayData() {
+      if(newSong != document.getElementById("song").innerHTML) {
+        if(newSong.length > 1 && !shown) {
+          //supporterAnimations();
+          shown = true;
+          console.log((newSong != document.getElementById("song").innerHTML));
+        }
+        if(newSong.length < 1 && shown) {
+          //supporterAnimations();
+          shown = false;
+        }
+        
+        supporterAnimations();
+        
+        console.log("New song, old song: " + document.getElementById("song").innerHTML + " new song: " + newSong);
+        hideText();
+        setTimeout(updateText, 300);
+        setTimeout(showText, 400);
+        
+      }
+    }
+​
+  $(document).ready(checkUpdate); 
+function supporterAnimations() {
+  (async () => {
+  
+  console.clear();
+  //document.getElementById("firstText").innerText = 'newArtist';
+​
+  //document.getElementById("secondText").innerText = 'newArtist';
+  // Bits Donation Follower Host Raid Resubscriber Subscriber
+  const sourceURL = "https://ext-assets.streamlabs.com/users/140067/V_";
+  const animFile = sourceURL + "Donation" + ".json?v=1";
+  const scriptUrls = [
+    "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.8/lottie.min.js",
+    "https://ext-assets.streamlabs.com/users/140067/SplitText.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js",
+    animFile
+  ];
+​
+  await Promise.all([...scriptUrls.map((src) => loadScript(src))]);
+  
+  const anim = await loadAnim();
+  
+  const tl = animate();
+  
+  gsap.to({}, {
+    repeat: 0,
+    duration: 10,
+    onStart() {
+      tl.play(0)
+    },
+    onRepeat() {
+      
+      // you can trigger music here
+      
+      tl.play(0);
+    }    
+  });
+  
+  function loadAnim() {
+    return new Promise(resolve => {
+      
+      const anim = bodymovin.loadAnimation({
+        wrapper: document.querySelector("#animationWindow"),
+        animType: "svg",
+        loop: false,
+        prerender: true,
+        autoplay: false,
+        path: animFile,
+        rendererSettings: {
+          //context: canvasContext, // the canvas context
+          //scaleMode: 'noScale',
+          //clearCanvas: false,
+          //progressiveLoad: false, // Boolean, only svg renderer, loads dom elements when needed. Might speed up initialization for large number of elements.
+          //hideOnTransparent: true //Boolean, only svg renderer, hides elements when opacity reaches 0 (defaults to true)
+        }
+      });
+      
+      anim.addEventListener("data_ready", () => resolve(anim));      
+    });
+  }
+  
+  function animate() {
+        
+    // !!! Can't use jQuery until it's loaded
+    // method to be executed;
+    $("#firstText").text("Can i get a.....");
+    $("#secondText").text("YEEeeeeeeeeeeeeeeeeeeeeETTT");
+        
+    function checkTextWidth(element, measure, width, padding) {
+      let elementWidth = $(measure).width();
+​
+      if (elementWidth > width) {
+        let transformAmount = (width - padding) / elementWidth;
+        $(element).css("transform", "scale(" + transformAmount + ")");
+      }
+    }
+​
+    function wrapLines(wrapSelector) {
+      var splitText = new SplitText(wrapSelector, { type: "lines" });
+      return splitText.lines;
+    }
+​
+    checkTextWidth("#firstHolder", "#firstText", 720, 20);
+    checkTextWidth("#secondHolder", "#secondText", 820, 20);
+​
+    let messageLines = wrapLines("#alert-user-message");
+​
+    const tl = gsap.timeline({ paused: true })
+      .to("#alertHolder", 0.5, { autoAlpha: 1 })
+      .add(function () {
+        anim.goToAndPlay(0);
+      })
+      .from(
+        "#firstText",
+        0.15,
+        { letterSpacing: "100px", ease: " power4.out" },
+        0.7
+      )
+      .to("#firstText", 2, { letterSpacing: "4px", autoRound: false }, 0.85)
+      .to("#alert-user-message", 0.6, { y: "-=20", autoAlpha: 1 }, 1)
+      .to("#alert-user-message", 0.6, { y: "-=20", autoAlpha: 1 }, 1)
+      .from(
+        messageLines,
+        0.4,
+        {
+          y: 3,
+          autoAlpha: 0,
+          stagger: {
+            ease: "none",
+            amount: 0.3
+          }
+        },
+        null,
+        1
+      )
+      .to("#firstText", 0.05, { autoAlpha: 0 }, 2)
+      .from("#secondText", 0.05, { autoAlpha: 0 }, 2.5)
+      .from(
+        "#secondText",
+        0.15,
+        { letterSpacing: "100px", ease: " power4.out" },
+        2.5
+      )
+      .to("#secondText", 4, { letterSpacing: "4px", autoRound: false }, 2.65)
+      .to("#secondText", 0.05, { autoAlpha: 0 }, 6.5);
+    
+    return tl;
+  } // end of animat
+  
+  function loadScript(url) {
+    return new Promise(function (resolve, reject) {
+      const script = document.createElement("script");
+      script.onload = resolve;
+      script.onerror = reject;
+​
+      script.src = url;
+​
+      document.head.appendChild(script);
+    });
+  }
+})();
+}
+​
+ 
+​
+​
+  
+  </script>
+</head>
+<div id="alertHolder">
+  <div id="animationWindow"></div>
+  <div id="mainTextHolder">
+    <div id="firstHolder">
+      <div id="firstText">New Sub</div>
+    </div>
+    <div id="secondHolder">
+      <div id="secondText">NerdOrDie</div>
+    </div>
+  </div>
+  <div id="alert-user-message">1</div>
+</div>
+ <div id=bigdiv>
+  <div id=smalldiv>
+    <p id=artist></p>
+    <br>
+    <p id=song></p>
+  </div>
+</div>
+</html>
